@@ -1,5 +1,5 @@
 {
-    "name": "elusivedocks/backbone",
+    "name": "elusivedocks/dispatcher",
     "description": "indescribable",
     "minimum-stability": "stable",
     "prefer-stable": true,
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ElusiveDocks\\BackBone\\": "\\"
+            "ElusiveDocks\\Dispatcher\\": "\\"
         }
     },
     "require-dev": {

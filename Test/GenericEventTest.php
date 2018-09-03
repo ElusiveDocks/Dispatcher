@@ -1,13 +1,13 @@
 <?php
 
-namespace ElusiveDocks\BackBone\Test;
+namespace ElusiveDocks\Dispatcher\Test;
 
-use ElusiveDocks\BackBone\Source\Event\GenericEvent;
+use ElusiveDocks\Dispatcher\Source\Event\GenericEvent;
 use PHPUnit\Framework\TestCase;
 
 /**
  * Class GenericEventTest
- * @package ElusiveDocks\BackBone\Test
+ * @package ElusiveDocks\Dispatcher\Test
  */
 class GenericEventTest extends TestCase
 {

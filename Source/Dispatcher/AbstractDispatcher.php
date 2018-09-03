@@ -1,12 +1,12 @@
 <?php
 
-namespace ElusiveDocks\BackBone\Source\Dispatcher;
+namespace ElusiveDocks\Dispatcher\Source\Dispatcher;
 
-use ElusiveDocks\BackBone\Contract\DispatcherInterface;
+use ElusiveDocks\Dispatcher\Contract\DispatcherInterface;
 
 /**
  * Class AbstractDispatcher
- * @package ElusiveDocks\BackBone\Source\Dispatcher
+ * @package ElusiveDocks\Dispatcher\Source\Dispatcher
  */
 abstract class AbstractDispatcher implements DispatcherInterface
 {

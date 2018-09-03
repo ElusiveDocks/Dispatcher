@@ -1,12 +1,12 @@
 <?php
 
-namespace ElusiveDocks\BackBone\Source\Event;
+namespace ElusiveDocks\Dispatcher\Source\Event;
 
-use ElusiveDocks\BackBone\Contract\EventInterface;
+use ElusiveDocks\Dispatcher\Contract\EventInterface;
 
 /**
  * Class GenericEvent
- * @package ElusiveDocks\BackBone\Source\Event
+ * @package ElusiveDocks\Dispatcher\Source\Event
  */
 class GenericEvent extends AbstractEvent implements EventInterface
 {

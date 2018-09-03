@@ -1,13 +1,13 @@
 <?php
 
-namespace ElusiveDocks\BackBone\Test;
+namespace ElusiveDocks\Dispatcher\Test;
 
-use ElusiveDocks\BackBone\Exception\GenericException;
+use ElusiveDocks\Dispatcher\Exception\GenericException;
 use PHPUnit\Framework\TestCase;
 
 /**
  * Class GenericExceptionTest
- * @package ElusiveDocks\BackBone\Test\Exception
+ * @package ElusiveDocks\Dispatcher\Test\Exception
  */
 class GenericExceptionTest extends TestCase
 {

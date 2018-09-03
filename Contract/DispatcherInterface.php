@@ -1,10 +1,10 @@
 <?php
 
-namespace ElusiveDocks\BackBone\Contract;
+namespace ElusiveDocks\Dispatcher\Contract;
 
 /**
  * Interface DispatcherInterface
- * @package ElusiveDocks\BackBone\Contract
+ * @package ElusiveDocks\Dispatcher\Contract
  */
 interface DispatcherInterface
 {

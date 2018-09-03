@@ -1,10 +1,10 @@
 <?php
 
-namespace ElusiveDocks\BackBone\Contract;
+namespace ElusiveDocks\Dispatcher\Contract;
 
 /**
  * Interface ExceptionInterface
- * @package ElusiveDocks\BackBone\Contract
+ * @package ElusiveDocks\Dispatcher\Contract
  */
 interface ExceptionInterface extends \Throwable
 {

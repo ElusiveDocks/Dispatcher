@@ -1,10 +1,10 @@
 <?php
 
-namespace ElusiveDocks\BackBone\Event;
+namespace ElusiveDocks\Dispatcher\Event;
 
 /**
  * Interface DispatcherEvent
- * @package ElusiveDocks\BackBone\Event
+ * @package ElusiveDocks\Dispatcher\Event
  */
 interface DispatcherEvent
 {

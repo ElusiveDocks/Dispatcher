@@ -1,12 +1,12 @@
 <?php
 
-namespace ElusiveDocks\BackBone\Exception;
+namespace ElusiveDocks\Dispatcher\Exception;
 
-use ElusiveDocks\BackBone\Contract\ExceptionInterface;
+use ElusiveDocks\Dispatcher\Contract\ExceptionInterface;
 
 /**
  * Class GenericException
- * @package ElusiveDocks\BackBone\Exception
+ * @package ElusiveDocks\Dispatcher\Exception
  */
 class GenericException extends AbstractException implements ExceptionInterface
 {

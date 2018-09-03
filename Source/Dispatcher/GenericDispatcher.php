@@ -1,14 +1,14 @@
 <?php
 
-namespace ElusiveDocks\BackBone\Source\Dispatcher;
+namespace ElusiveDocks\Dispatcher\Source\Dispatcher;
 
-use ElusiveDocks\BackBone\Contract\DispatcherInterface;
-use ElusiveDocks\BackBone\Contract\EventInterface;
-use ElusiveDocks\BackBone\Source\Event\GenericEvent;
+use ElusiveDocks\Dispatcher\Contract\DispatcherInterface;
+use ElusiveDocks\Dispatcher\Contract\EventInterface;
+use ElusiveDocks\Dispatcher\Source\Event\GenericEvent;
 
 /**
  * Class GenericDispatcher
- * @package ElusiveDocks\BackBone\Source\Dispatcher
+ * @package ElusiveDocks\Dispatcher\Source\Dispatcher
  */
 class GenericDispatcher extends AbstractDispatcher implements DispatcherInterface
 {
