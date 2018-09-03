@@ -1,0 +1,28 @@
+{
+    "name": "elusivedocks/backbone",
+    "description": "indescribable",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gerd Christian Kunze",
+            "email": "gerdchristian.kunze@googlemail.com"
+        }
+    ],
+    "config": {
+        "optimize-autoloader": true,
+        "apcu-autoloader": false,
+        "vendor-dir": "Vendor"
+    },
+    "require": {
+        "php": "~7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "ElusiveDocks\\BackBone\\": "\\"
+        }
+    },
+    "require-dev": {
+    }
+}
