@@ -28,7 +28,7 @@ interface DispatcherInterface
      * @param int $priority The higher this value, the earlier an event
      *                            listener will be triggered in the chain (defaults to 0)
      */
-    public function addListener(string $eventName, callable $listener, int $priority = 0);
+    public function addListener(string $eventName, $listener, int $priority = 0);
 
     /**
      * Removes an event listener from the specified events.
@@ -36,7 +36,7 @@ interface DispatcherInterface
      * @param string $eventName The event to remove a listener from
      * @param callable $listener The listener to remove
      */
-    public function removeListener(string $eventName, callable $listener);
+    public function removeListener(string $eventName, $listener);
 
     /**
      * Gets the listeners of a specific event or all listeners sorted by descending priority.
