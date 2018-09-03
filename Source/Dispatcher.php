@@ -18,11 +18,10 @@ class Dispatcher
 
     /**
      * Dispatcher constructor.
-     * @throws GenericException
      */
-    public function __construct()
+    final private function __construct()
     {
-        throw new GenericException(__CLASS__ . ' is a self contained singleton');
+
     }
 
     /**
