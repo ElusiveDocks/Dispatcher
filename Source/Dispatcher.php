@@ -3,7 +3,6 @@
 namespace ElusiveDocks\Dispatcher\Source;
 
 use ElusiveDocks\Dispatcher\Contract\EventInterface;
-use ElusiveDocks\Dispatcher\Exception\GenericException;
 use ElusiveDocks\Dispatcher\Source\Dispatcher\GenericDispatcher;
 use ElusiveDocks\Dispatcher\Source\Event\GenericEvent;
 
@@ -29,7 +28,6 @@ class Dispatcher
      * @param $listener
      * @param int $priority
      * @return Dispatcher
-     * @throws GenericException
      */
     public static function registerListener(string $eventName, $listener, int $priority = 0): Dispatcher
     {
@@ -50,7 +48,6 @@ class Dispatcher
 
     /**
      * @return Dispatcher
-     * @throws GenericException
      */
     private static function useSelf()
     {
@@ -64,7 +61,6 @@ class Dispatcher
      * @param string $eventName
      * @param EventInterface|null $event
      * @return Dispatcher
-     * @throws GenericException
      */
     public static function dispatchEvent(string $eventName, EventInterface $event = null): Dispatcher
     {
