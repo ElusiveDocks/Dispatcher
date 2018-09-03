@@ -27,4 +27,4 @@ jobs: # a collection of steps
                 command: php composer.phar install
         -   run:
                 name: Run Unit tests
-                command: Vendor/bin/phpunit --configuration /phpunit.xml
+                command: Vendor/bin/phpunit --configuration ~/elusivedocks/phpunit.xml
